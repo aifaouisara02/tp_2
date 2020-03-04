@@ -1,0 +1,35 @@
+annuaire {
+	background-color: #8A1619 
+	}
+personne {
+    display: table;
+	} 
+nom { 
+    color: #fff;
+    font-family: 'Righteous', cursive;
+    font-size: 40px;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 #000;
+	margin: 10px 0 24px;
+	} 
+prenom {
+	font-size: 30px;
+    color: #DFBF84;
+    text-shadow: 1px 1px 0 #000;
+	margin: 10px 0 24px;
+    line-height: 50px;
+	} 
+adresse {
+	display: table;
+    color: #f6f6f6;
+    font-size: 16px;
+    line-height: 24px;
+	}
+code-postale {
+	padding: 15px;
+	font-size: 20px;
+	} 
+telephone {
+	color: #e8d4a7;
+	}

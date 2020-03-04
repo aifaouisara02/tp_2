@@ -1,0 +1,26 @@
+mushaf{ 
+background-color: #fce4ec 
+}
+table{
+position: relative;
+margin: auto;
+border-style:solid;
+width: 1000px;
+height: 150px;
+background-color: white;
+}
+#sura{ color: #fff;
+    font-family: 'Righteous', cursive;
+    font-size: 40px;
+    line-height: 60px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 #000;
+    margin: 10px 0 24px;
+}
+#aya {font-size: 30px;
+    color: #f8bbd0;
+    text-shadow: 1px 1px 0 #000;
+    margin: 10px 0 24px;
+    line-height: 50px;
+    left: 53px;
+}

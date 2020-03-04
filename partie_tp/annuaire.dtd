@@ -1,0 +1,12 @@
+<!ELEMENT annuaire (personne*)>
+<!ELEMENT personne (identite)>
+<!ELEMENT identite (nom,prenom,adresse)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT adresse (rue,code-postale,ville,telephone)>
+<!ELEMENT rue (#PCDATA)>
+<!ELEMENT code-postale (#PCDATA)>
+<!ELEMENT ville (#PCDATA)>
+<!ELEMENT telephone (#PCDATA)>
+<!ATTLIST telephone type (mobile|fixe) #REQUIRED>
+

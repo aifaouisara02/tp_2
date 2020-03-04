@@ -1,0 +1,13 @@
+<!ELEMENT Group_gsi(etudiant+)>
+<!ELEMENT etudiant (Identite,Moy)>
+<!ELEMENT Identite (Matricule,Nom,Prenom)>
+<!ELEMENT Moy (MoyS1,MoyS2,MoyAnnuel,CreditS1,CreditS2,Unite)>
+<!ELEMENT Matricule (#PCDATA) >
+<!ELEMENT Nom (#PCDATA) >
+<!ELEMENT Prenom (#PCDATA) >
+<!ELEMENT MoyS1 (#PCDATA) >
+<!ELEMENT MoyS2 (#PCDATA) >
+<!ELEMENT MoyAnnuel (#PCDATA) >
+<!ELEMENT CreditS1 (#PCDATA) >
+<!ELEMENT CreditS2 (#PCDATA) >
+<!ELEMENT Unite (#PCDATA) >

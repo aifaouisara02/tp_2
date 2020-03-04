@@ -1,0 +1,33 @@
+body{
+  background-color: #fce4ec ;
+  color: black;
+}
+table{
+position: relative;
+margin: auto;
+border-style:solid;
+width: 1000px;
+height: 150px;
+background-color: white;
+}
+th{
+	text-align: center;
+	background-color: #f8bbd0;
+}
+#admis{
+	background-color: #c8e6c9;
+}
+#admis_avec_dette{
+	background-color: #00695c ;
+}
+#ajournee{
+	background-color: #e53935;
+}
+#sa{
+position: relative;
+margin: auto;
+border-style:solid;
+width:  500px;
+height: 250px;
+background-color: white;
+}
